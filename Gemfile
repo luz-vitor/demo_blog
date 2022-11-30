@@ -64,8 +64,8 @@ group :development do
 end
 
 group :production do
-  # Use pg as the database for Active Record
-  gem "pg", "~> 1.1"
+  # Use sqlite3 as the database for Active Record
+  gem "sqlite3", "~> 1.1"
   
 end
 
